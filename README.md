@@ -1,12 +1,20 @@
 # express-locallibrary-tutorial
 
+Created using the tutorial from:
 https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/skeleton_website
 
-Connection string
+Live deployment at:
+https://express-locallibrary-tutorial-webservice.onrender.com
 
-mongodb+srv://zachlamont1:<password>@cluster0.x5kzgmi.mongodb.net/local_library?retryWrites=true&w=majority
+Render.com settings:
+Runtime: Node
+Build command: npm install
+Start command: npm start
+and add the data base connection key and string
 
-To do: 'Challenge Yourself' Section:
+To get it to deploy successfully I had to re-run 'npm install mongoose' and 'npm install express-async-handler'. Not sure why.
+
+Next Steps: 'Challenge Yourself' Section:
 
 - Implement the delete pages for the Book, BookInstance, and Genre models
 - Implement the delete pages for the Book, BookInstance, and Genre models
